@@ -22,7 +22,7 @@ namespace AttendanceRecord.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Välkommen att kontakta oss!";
 
             return View();
         }
