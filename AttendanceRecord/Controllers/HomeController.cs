@@ -29,7 +29,7 @@ namespace AttendanceRecord.Controllers
 
         //    return View();
         //}
-        public async Task<ActionResult> About()
+        public async Task<ActionResult> Enrollment()
         {
             IQueryable<EnrollmentDateGroup> data =
                 from student in _context.Students
