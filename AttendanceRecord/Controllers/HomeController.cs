@@ -23,12 +23,6 @@ namespace AttendanceRecord.Controllers
             return View();
         }
 
-        //public IActionResult About()
-        //{
-        //    ViewData["Message"] = "Your application description page.";
-
-        //    return View();
-        //}
         public async Task<ActionResult> Enrollment()
         {
             IQueryable<EnrollmentDateGroup> data =
